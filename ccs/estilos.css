@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1300px;
+    margin: auto;
+  
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}                                                                          /*ESTILOS GENERALES*/
+
+.icon-menu{
+    display: none;
+}
+
+header {
+    background-image: url(../media/header.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu-logo img{
+    height: 120px;
+    width: 38px;
+}
+
+nav {
+    display: block;
+}
+
+nav ul li a{
+    padding-left: 30px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.titular{
+    color: #fff;
+    margin-top: 120px;
+}
+
+.titular h1{
+    font-size: 120px;
+    line-height: 130p;
+}
+
+.titular p{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.btn-programs{
+    background: #fff;
+    color: #000;
+    padding: 20px 40px;
+    display: inline-block
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 100px auto;
+    font-weight: normal;
+}
+
+.program{
+    width: 32%;
+}
+
+.program h3{
+    line-height: 60px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #3f3e3e;
+}
+
+.program p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7D7D7D;
+}
+
+.contenedor-txt{
+    width: 50%;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.contenedor-txt p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #7D7D7D;
+    padding-top: 20px;
+}
+
+.contenedor-txt a{
+    background:#F1F1F1;
+    margin-top: 20px;
+}
+
+#numeros {
+    background: url(../media/asset\ 31.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 180px 0px;
+}
+
+.numero h2{
+    font-size: 180px;
+    color: #fff;
+    height: 217px;
+    margin: 0;
+    text-align: left;
+}
+
+.numero p{
+    font-size: 27px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding:60px 0;
+}
+
+footer i {
+    margin-left: 10px;
+}
+
+@media (max-width:1200px){
+
+    .wrapper {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:800px){
+
+
+    header{
+        height: 70vh;
+    }
+
+
+    .menu {
+        display: block;
+
+    }
+
+    .icon-menu{
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background: #aaa;
+    }
+
+    nav ul{
+        display: block !important;
+    }
+
+    nav ul li a{
+        padding: 10px 5%;
+    }
+    
+    .titular {
+        margin-top: 20px;
+    }
+
+    .titular h1{
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .titular p {
+        font-size: 18px;
+    }
+
+    h2{
+        margin: 40px 0px;
+    }
+
+    #welcome .contendor {
+        display: block;
+       
+        padding: 50px 0px;
+    }
+
+    #welcome .contenedor-txt {
+        width: 100%;
+        padding:  0px;
+    }
+
+    .contenedor-txt h2{
+        font-size: 32px;
+    }
+
+    .contenedor-txt p{
+        padding: 0px;
+    }
+
+    .contendor-programs{
+        flex-direction: column;
+    }
+
+    .program {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    #numeros{
+        padding: 0;
+    }
+
+    #numeros .contenedor{
+       display: block;
+    }
+
+    .numero h2{
+        font-size: 100px;
+        height: 120px;
+    }
+
+    footer .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .redes{
+        margin-top: 30px;
+    }
+}
